@@ -1,0 +1,528 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+main .box{
+    opacity: 0.44;
+    background-color: black;
+    width: 99vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    background-image: url(homebg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+
+main nav{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+
+
+
+.bgimg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   z-index: -1;
+}
+
+.bgimg img {
+    visibility: hidden;
+}
+
+#Lang {
+    width: 120px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid white;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 780px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    top: 5px;
+    left: 250px;
+    color: white;
+    justify-items: center;
+    justify-self: center;
+    font-weight: 400;
+}
+
+.langicon {
+    position: absolute;
+    pointer-events: none;
+    width: 1rem;
+    height: 1rem;
+    left: 0.75rem;
+    right: auto;
+}
+
+.signout button {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    left: 350px;
+    position: absolute;
+    width: 90px;
+    height: 33px;
+    margin-left: 830px;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+.signout button:hover {
+
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(193, 17, 25);
+}
+
+.maincontent p:first-child {
+    position: absolute;
+    top: 270px;
+    left: 616px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.second {
+    position: absolute;
+    top: 275px;
+    left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.third {
+    position: absolute;
+    top: 383px;
+    left: 517px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 23px;
+}
+
+.finish button {
+    position: absolute;
+    top: 462px;
+    left: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    width: 250px;
+    height: 58px;
+    background-color: red;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.finish button:hover {
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(193, 17, 25);
+}
+
+.enjoy {
+    word-wrap: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+
+.enjoy1 {
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.enjoy2 {
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.enjoy3 {
+    position: absolute;
+    top: 330px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.secImg img{
+    top: 75px;
+    left: 750px;
+    
+    position: relative;
+    z-index: 10;
+    width: 550px;
+}
+.secImg video{
+    width: 500px;
+    height: 225px;
+    position: absolute;
+    right:0px;
+    left: 774px;
+    top: 160px;
+}
+#line {
+    width: 100vw;
+    height: 8px;
+    background-color: rgb(39, 38, 38);
+}
+
+.download {
+    word-wrap: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+.strangerthings img{
+    width: 530px;
+    height: 380px;
+    margin-top: 100px;
+    margin-left: 170px;
+    right: 0;
+}
+.strangerbox{
+    width: 280px;
+    height: 90px;
+    top: 360px;
+    right: 0;
+    left: 290px;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+.str1{
+    margin-top: 27px;
+    margin-left: 80px;
+    left: 0;
+    display: flex;
+    position: absolute;
+}
+.str2{
+    color: blue;
+    margin-top: 50px;
+    margin-left: 80px;
+    display: inline-block;
+    position: absolute;
+}
+
+.strangerthings2 img{
+    right: 0;
+    width: 60px;
+    height: 70px;
+    left: 300px;
+    top: 365px;
+    position: absolute;
+    /* margin-right: 10px; */
+}
+.download1 {
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.download2 {
+    position: absolute;
+    top: 370px;
+    left: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    width: 500px;
+}
+
+
+.watch {
+    word-wrap: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+
+.watch1 {
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.watch2 {
+    width: 550px;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.thirdImg img{
+    top: 75px;
+    left: 750px;
+    
+    position: relative;
+    z-index: 10;
+    width: 550px;
+}
+.thirdImg video{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    right:0px;
+    left: 850px;
+    top: 70px;
+}
+.kids {
+    word-wrap: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+
+.kids1 {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.kids2 {
+    position: absolute;
+    top: 330px;
+    left: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.kidsimg img{
+    width: 580px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.questions {
+    word-wrap: 100%;
+    height: 130vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+
+.q0{
+    margin-top: 150px;
+    position: absolute;
+    height: 80vh;
+}
+
+#qbox{
+    margin-top: 5px;
+    margin-left: 150px;
+    width: 80vw;
+    height: 80px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    font-size: 25px;
+    border: none;
+}
+#qbox:hover{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(138, 136, 136);
+}
+
+.questions1 {
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+}
+.finish2 button {
+    position: absolute;
+    bottom: 50px;
+    left: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    width: 250px;
+    height: 58px;
+    background-color: red;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.finish2 button:hover {
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(193, 17, 25);
+}
+.ending{
+    word-wrap: 100%;
+    height: 52vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100vw;
+}
+.end0{
+    position: absolute;
+    display: grid;
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 65vw;
+    height: 30vh;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 25px 150px 50px 25px;
+}
+.end1{
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+.end2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.end3{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.end4{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.end5{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.end6{
+    grid-row: 3/4;
+    grid-column: 1/5;
+}
+.end7{
+    grid-row: 4/5;
+    grid-column: 1/5;
+}
+
+.end5 ul li{
+    list-style-type: none;
+}
+
+.end4 ul li{
+    list-style-type: none;
+}
+
+.end3 ul li{
+    list-style-type: none;
+}
+
+.end2 ul li{
+    list-style-type: none;
+}
